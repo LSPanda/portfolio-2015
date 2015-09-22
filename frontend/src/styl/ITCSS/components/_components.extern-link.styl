@@ -1,0 +1,33 @@
+///*------------------------------------*\
+//    #COMPONENTS EXTERN LINK
+//\*------------------------------------*/
+
+
+
+
+// Social Network link on my portfolio
+.social
+    rem-fallback( margin-top, -3px )
+
+.social__link
+    display inline-block
+    rem-fallback( width, 30px )
+    rem-fallback( height, 30px )
+    rem-fallback( text-indent, -9999px )
+    rem-fallback( margin, 0 8px )
+    transistion( all, 0.25s )
+
+.social__link--facebook
+    display block
+    width 100%
+    height 100%
+    background: url("images/sprite.png") -10px -10px
+    &:hover
+        background: url("images/sprite.png") -10px -50px
+.social__link--github
+    display block
+    width 100%
+    height 100%
+    background: url("images/sprite.png") -50px -10px
+    &:hover
+        background: url("images/sprite.png") -50px -50px
