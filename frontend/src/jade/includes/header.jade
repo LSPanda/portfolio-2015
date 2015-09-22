@@ -3,32 +3,32 @@
 header.header
     h1.hidden Simon&You, portfolio de Simon Leyder
     div.header__nav
-        div.choices
+        div.inline-block.choices
             span.choices__element
             span.choices__button
-        nav.navigation
-            h2.hidden Menu de Navigation de mon portfolio
-            if current.home
-                span.navigation__element
-                    a( href='html/works.html' ).element__link Works
-            else
-                span.navigation__element
-                    a( href='works.html' ).element__link Works
-            if current.home
-                span.navigation__element
-                    a( href='html/blog.html' ).element__link Blog
-            else
-                span.navigation__element
-                    a( href='blog.html' ).element__link Blog
-            if current.home
-                span.navigation__element
-                    a( href='html/contact.html' ).element__link Contact
-            else
-                span.navigation__element
-                    a( href='contact.html' ).element__link Contact
-        div.social
+        div.inline-block.social
             h2.hidden Vous pouvez aussi me retrouver ailleurs
             span.social__link
                 a( href='https://www.facebook.com' ).social__link--facebook Facebook
             span.social__link
                 a( href='https://github.com/LSPanda' ).social__link--github Github
+        nav.inline-block.navigation
+            h2.hidden Menu de Navigation de mon portfolio
+            if current.main
+                span.navigation__element
+                    a( href='html/works.html' ).element__link.animateLink.animateLink Works
+            else
+                span.navigation__element
+                    a( href='works.html' ).element__link.animateLink Works
+            if current.main
+                span.navigation__element
+                    a( href='html/blog.html' ).element__link.animateLink Blog
+            else
+                span.navigation__element
+                    a( href='blog.html' ).element__link.animateLink Blog
+            if current.main
+                span.navigation__element
+                    a( href='html/contact.html' ).element__link.animateLink Contact
+            else
+                span.navigation__element
+                    a( href='contact.html' ).element__link.animateLink Contact

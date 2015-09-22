@@ -1,0 +1,33 @@
+///*------------------------------------*\
+//    #COMPONENTS HEADER
+//\*------------------------------------*/
+
+
+
+
+// Header style
+.header
+    width 100%
+    position fixed
+    top 0
+    right 0
+    left 0
+    background-color wf_background-navigation-color
+    border-bottom 1px solid wf_border-navigation
+    rem-fallback( padding, 16px 32px )
+    z-index 1
+
+.social, .navigation
+    float right
+
+.navigation__element
+    font-family wf_font-heading
+.element__link
+    font-style normal
+    color wf_nav-color
+    text-decoration none
+    rem-fallback( margin, 0 8px )
+    rem-fallback( padding-bottom, 3px )
+    &:hover
+        color wf_nav-color-hover
+        text-decoration none
