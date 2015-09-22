@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Accueil</title>
+  <title>Simon & You - Home</title>
   <meta name="description" content="Write site description here">
   <meta name="viewport" content="width-device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="">
@@ -14,8 +14,17 @@
 </head>
 <body>
   <div class="wrapper">
-    <header>
-      <h1>Head par defaut de ma maquette</h1>
+    <header class="header">
+      <h1 class="hidden">Simon&You, portfolio de Simon Leyder</h1>
+      <div class="header__nav">
+        <div class="choices"><span class="choices__element"></span><span class="choices__button"></span></div>
+        <nav class="navigation">
+          <h2 class="hidden">Menu de Navigation de mon portfolio</h2><span class="navigation__element"><a href="works.html" class="element__link">Works</a></span><span class="navigation__element"><a href="blog.html" class="element__link">Blog</a></span><span class="navigation__element"><a href="contact.html" class="element__link">Contact</a></span>
+        </nav>
+        <div class="social">
+          <h2 class="hidden">Vous pouvez aussi me retrouver ailleurs</h2><span class="social__link"><a href="https://www.facebook.com" class="social__link--facebook">Facebook</a></span><span class="social__link"><a href="https://github.com/LSPanda" class="social__link--github">Github</a></span>
+        </div>
+      </div>
     </header>
     <p>Template personnel de maquette, utilisant Jade et Stylus.</p>
     <footer>
