@@ -34,3 +34,7 @@ rem-fallback( property, arguments )
 
     {property} px-fall
     {property} unquote( rem-fall )
+
+// Simply convert PX value on REM value
+px-to-rem( argument )
+    strip-units( argument ) / strip-units( wf_font-size ) * 1rem

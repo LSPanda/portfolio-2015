@@ -16,6 +16,16 @@
     border-bottom 1px solid wf_border-navigation
     rem-fallback( padding, 16px 32px )
     z-index 1
+.header--hidden
+    opacity 0
+    -webkit-transform translate( 0, px-to-rem( -60px ) )
+    -webkit-transition -webkit-transform 0.25s, background 0.5s, color 0.5s, opacity 0 0.5s
+
+.header--visible
+    opacity 1
+    -webkit-transform translate( 0, 0 )
+    -webkit-transition -webkit-transform 0.25s, background 0.5s, color 0.5s
+
 
 .social, .navigation
     float right
