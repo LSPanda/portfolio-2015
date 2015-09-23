@@ -3,11 +3,11 @@
 #############
 
 npm-debug.log
-mockUp/node_modules
-mockUp/bin/js/script-min.js
-mockUp/bin/css/*.css
-mockUp/bin/index.html
-mockUp/bin/html
+frontend/node_modules
+frontend/bin/js/script-min.js
+frontend/bin/css/*.css
+frontend/bin/index.html
+frontend/bin/html
 
 
 #############
