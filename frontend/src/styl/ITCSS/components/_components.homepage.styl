@@ -6,13 +6,13 @@
 
 
 // Placing my background image and logo on the HOMEPAGE
-.home
+.cover
     position relative
     width 100%
     height 100vh
     background url("images/links/home.jpg") center fixed no-repeat
 
-.home__logo
+.cover__logo
     position absolute
     rem-fallback( width, 800px )
     rem-fallback( height, 400px )
@@ -22,3 +22,10 @@
     left 0
     margin auto
     background url("images/links/sprite.svg") -10px -40px
+.logo__alt
+    font-family wf_font-heading
+    rem-fallback( font-size, 32px )
+    text-align center
+    color wf_logo-replace
+    rem-fallback( margin-top, 172px )
+    rem-fallback( text-indent, -9999px )
