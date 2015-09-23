@@ -16,6 +16,12 @@ header.header.header--visible
             h2.hidden Navigation à travers mon portfolio
             if current.main
                 span.navigation__element
+                    a( href='index.html' ).element__link.animateLink Home
+            else
+                span.navigation__element
+                    a( href='../index.html' ).element__link.animateLink Home
+            if current.main
+                span.navigation__element
                     a( href='html/works.html' ).element__link.animateLink.animateLink Works
             else
                 span.navigation__element
@@ -26,9 +32,3 @@ header.header.header--visible
             else
                 span.navigation__element
                     a( href='blog.html' ).element__link.animateLink Blog
-            if current.main
-                span.navigation__element
-                    a( href='html/contact.html' ).element__link.animateLink Contact
-            else
-                span.navigation__element
-                    a( href='contact.html' ).element__link.animateLink Contact
