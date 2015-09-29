@@ -33,7 +33,8 @@ module.exports = function( grunt ) {
 					},
 				},
 				"files": { // - Add jade's fill to compile here
-					"bin/index.html": "src/jade/main.jade"
+					"bin/index.html": "src/jade/main.jade",
+					"bin/html/works.html": "src/jade/works.jade"
 				}
 			}
 		},

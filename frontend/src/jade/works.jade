@@ -1,0 +1,19 @@
+//- index.html
+
+extends includes/layout
+
+block title
+    title Simon&You - Works
+
+block style
+    link(rel="stylesheet" href="../css/main-min.css")
+
+block header
+    - var current = { works: 'listing works' }
+    include includes/header.jade
+
+block content
+    p Liste des travaux
+
+block footer
+    include includes/footer.jade
