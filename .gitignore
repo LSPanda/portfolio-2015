@@ -4,8 +4,8 @@
 
 npm-debug.log
 frontend/node_modules
-frontend/bin/js/script-min.js
-frontend/bin/css/*.css
+frontend/bin/assets/js/script-min.js
+frontend/bin/assets/css/*.css
 frontend/bin/index.html
 frontend/bin/html
 

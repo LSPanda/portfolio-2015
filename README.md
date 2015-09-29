@@ -12,9 +12,9 @@ Dépendances Grunt utilisées : Jade / Stylus / Ugligy / Notify / Watch / Kouto-
 
 ###TODO List
 
-- Création maquette papier
-- Préparation maquette HTML/CSS
+- ~~Création maquette papier~~
 - ~~Mise en place Kirby~~
+- Préparation maquette HTML/CSS
 - Developpement Kirby
 - Mise en ligne
 
