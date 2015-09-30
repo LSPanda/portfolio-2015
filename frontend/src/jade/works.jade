@@ -11,9 +11,23 @@ block header
 
 block content
     div.wrapper__text
-        main.works
-            h2.alpha.works__title Mes travaux
-            p.lettrine Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        h2.alpha.works__title Mes travaux
+        p.lettrine Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    section.works
+        - var numberItem = 0
+        h2.hidden Liste de mes travaux
+
+        while numberItem < 6
+            article.inline-block.work
+                h3.hidden Nom du travail
+                a( href="work.html").removeLink
+                    figure.work__block
+                        img(src="../assets/images/work.jpg", alt="Image de travail").work__image
+                        figcaption.work__caption
+                            span.work__title Titre du travail
+                    
+            - numberItem++
+    
 
 block footer
     include includes/footer.jade
