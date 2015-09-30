@@ -1,4 +1,8 @@
 //- includes/script.jade
 
-script(src="assets/js/vendor/jquery.js")
-script(src="assets/js/script-min.js")
+if current.main
+    script(src="assets/js/vendor/jquery.js")
+    script(src="assets/js/script-min.js")
+else
+    script(src="../assets/js/vendor/jquery.js")
+    script(src="../assets/js/script-min.js")

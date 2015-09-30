@@ -25,21 +25,41 @@
     margin 0
     padding 0
     &:hover .work__caption
-        top 0
+        width 100%
+        height 100%
+        opacity 0.9
+    &:hover .work__title
+        opacity 1
+
 .work__image
     width 100%
     height 100%
+
 .work__caption
     dislay block
     position absolute
-    rem-fallback( top, -1000px )
+    top 0
     right 0
+    bottom 0
     left 0
-    width 100%
-    height 100%
+    margin auto
+    width 5%
+    height 5%
     background wf_background-caption-color
-    opacity 0.8
+    opacity 0
     transition( all, 0.25s )
+
 .work__title
-    opacity 1
-    color white
+    text-align center
+    margin-top 30%
+    opacity 0
+    color wf_caption-body-color
+.work__title-head
+    text-transform uppercase
+    color wf_caption-color
+.work__title-line
+    display block
+    rem-fallback( width, 200px )
+    rem-fallback( height, 4px )
+    background wf_border-caption
+    margin 6px auto
