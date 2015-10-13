@@ -10,7 +10,24 @@ block header
     include includes/header.jade
 
 block content
-    p Liste des travaux
+    div.wrapper__text
+        h2.alpha.blogs__title Blog
+        p.lettrine Pourquoi un blog me diriez-vous&nbsp;? Je reste un homme et j'adore parler de ce qui me passe par la tête&nbsp;! Et ici, je n'exposerais pas  mon chat ou d'autre chose à la mode sur l'internet... Mais plutôt de ce que je fais de mon temps libre, comme lire où découvrir de nouvelles technologies pour mon métier et me tenir à la page. Enfin, vous verrez bien en continuant sur cette page, les derniers articles sont juste en dessous&nbsp;!
+        span.paragraph-separator__second
+    section.blog
+        - var numberItem = 0
+        h2.hidden Liste de mes articles sur le blog
+
+        while numberItem < 5
+            article.blog
+                h3.gamma Un chouette article
+                a( href="work.html").removeLink
+                    img(src="images/" alt="attribut alt de l'image").blog__img
+                    p.blog__exerc Et pour vous donner l’eau à la bouche, voici un petit extrait de l'article en question !
+                    
+                                                    
+            - numberItem++
+
 
 block footer
     include includes/footer.jade
