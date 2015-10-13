@@ -3,14 +3,34 @@
 extends includes/layout
 
 block title
-    title Simon&You - Work
+    title Simon&You - Title Work
+    
+block style
+    link(rel="stylesheet" href="../assets/css/main-min.css")
+    link(rel="stylesheet" href="../assets/css/fresco/fresco.css")
 
 block header
     - var current = { work: 'showing work' }
     include includes/header.jade
 
 block content
-    p Liste des travaux
+    div.wrapper__text
+        h2.alpha.works__title Game Boys
+        p.lettrine Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    section.works
+        - var numberItem = 0
+        h2.hidden Conception du projet Game Boy
+
+        while numberItem < 3
+            a(href="../assets/images/myWork.jpg", data-fresco-group="work", data-fresco-caption="Une Game Boy" ).inline-block.fresco.work
+                img(src="../assets/images/myWork.jpg", alt="Attribut alt de l'image").fresco__hightlight
+            a(href="../assets/images/myWork1.jpg", data-fresco-group="work", data-fresco-caption="Un Resto_Rallye" ).inline-block.fresco.work
+                img(src="../assets/images/myWork1.jpg", alt="Attribut alt de l'image").fresco__hightlight
+                                                    
+            - numberItem++
+
 
 block footer
     include includes/footer.jade
