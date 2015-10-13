@@ -18,12 +18,15 @@ block content
         - var numberItem = 0
         h2.hidden Liste de mes articles sur le blog
 
-        while numberItem < 5
-            article.blog
-                h3.gamma Un chouette article
+        while numberItem < 4
+            article.blogs                
                 a( href="blog.html").removeLink
-                    img(src="images/" alt="attribut alt de l'image").blog__img
-                    p.blog__exerc Et pour vous donner l’eau à la bouche, voici un petit extrait de l'article en question !
+                    div.blogs__block
+                        h3.gamma Un chouette article
+                        span.blogs__date 13 Octobre 2015
+                    img(src="../assets/images/articles.jpg" alt="attribut alt de l'image").blogs__img
+                    div.blogs__block
+                        p Et pour vous donner l’eau à la bouche, voici un petit extrait de l'article en question.
                     
                                                     
             - numberItem++

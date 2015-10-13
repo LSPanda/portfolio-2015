@@ -5,7 +5,7 @@
 
 
 
-// Display my blog posts
+// Rules for blogs page introduction
 .blogs__title
     text-align center
     text-transform uppercase
@@ -17,3 +17,21 @@
     rem-fallback( height, 2px )
     background wf_border-navigation
     margin 0 auto
+
+// Style for display my blog artcile
+.blogs
+    display inline-block
+    width 50%
+    rem-fallback( padding-bottom, 56px )
+    transition( all, 0.25s )
+    &:hover
+        opacity 0.6
+
+.blogs__block
+    rem-fallback( max-width, 540px )
+    margin 0 auto
+.blogs__date
+    display block
+    rem-fallback( margin-top, -20px )
+.blogs__img
+    rem-fallback( margin, 8px 0 )
