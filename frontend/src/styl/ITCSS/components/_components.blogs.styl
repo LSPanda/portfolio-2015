@@ -18,7 +18,7 @@
     background wf_border-navigation
     margin 0 auto
 
-// Style for display my blog artcile
+// Style for display my blog articles
 .blogs
     display inline-block
     width 50%
@@ -35,3 +35,21 @@
     rem-fallback( margin-top, -20px )
 .blogs__img
     rem-fallback( margin, 8px 0 )
+
+// Style for display one article
+.blog__thumbnails
+    display block
+    width 100%
+    rem-fallback( min-height, 225px )
+    rem-fallback( max-height, 300px )
+    margin 0 auto
+
+.blog__title
+    text-align center
+    text-transform uppercase
+    rem-fallback( margin, -24px 0 0 )
+
+.blog__date
+    display block
+    text-align center
+    rem-fallback( margin, -8px 0 48px )
