@@ -30,6 +30,18 @@ block content
                     
                                                     
             - numberItem++
+    
+        div.pagination
+            span.inline-block.pagination__element
+                a(href="#").block.removeLink.pagination__element &lang;&lang;
+            span.inline-block.pagination__element
+                a(href="#").block.pagination__element--current 1
+            span.inline-block.pagination__element
+                a(href="#").block.pagination__element 2
+            span.inline-block.pagination__element
+                a(href="#").block.pagination__element 3
+            span.inline-block.pagination__element
+                a(href="#").block.removeLink.pagination__element &rang;&rang; 
 
 block footer
     include includes/footer.jade
