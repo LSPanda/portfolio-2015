@@ -52,9 +52,10 @@ module.exports = function( grunt ) {
 		},
 		"notify_hooks": {
 			"options": {
-				"enable": true,
+				"enabled": true,
+				"max_jshint_notifications": 5,
 				"success": true, // - Change value to see notify only for errors
-				"duration": 1
+				"duration": 3
 			}
 		},
 		"watch": {

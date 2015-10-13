@@ -12,22 +12,32 @@ block header
 block content
     div.wrapper__text
         h2.alpha.works__title Mes travaux
-        p.lettrine Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        p.lettrine Mes amis, pour quelles raisons navigez-vous sur mon portfolio&nbsp;? En premier lieu, j'ai envie de dire que vous êtes à la recherche d'un infographiste pour un logo / un site internet / une affiche / un projet super interessant&nbsp;! Seulement, avant de vous arrêter ici et me choisir comme compagnon pour réaliser la moindre de vos envie, jeter un coup d'oeil à mes travaux déjà réalisés afin de savoir si je suis la personne que vous rechercher. Bonne navigation&nbsp;!
     section.works
         - var numberItem = 0
         h2.hidden Liste de mes travaux
 
-        while numberItem < 6
+        while numberItem < 3
             article.inline-block.work
-                h3.hidden Nom du travail
+                h3.hidden Game Boy
                 a( href="work.html").removeLink
                     figure.work__block
-                        img(src="../assets/images/work.jpg", alt="Image de travail").work__image
+                        img(src="../assets/images/myWork.jpg", alt="Image de travail").work__image
                         figcaption.work__caption
                             div.work__title
-                                span.gamma.work__title-head Titre du travail
+                                span.gamma.work__title-head Game Boy
                                 div.work__title-line
-                                p Stylus, jade, kirby
+                                p Stylus Jade Kirby
+            article.inline-block.work
+                h3.hidden Resto-Rallye
+                a( href="work.html").removeLink
+                    figure.work__block
+                        img(src="../assets/images/myWork1.jpg", alt="Image de travail").work__image
+                        figcaption.work__caption
+                            div.work__title
+                                span.gamma.work__title-head Resto-Rallye
+                                div.work__title-line
+                                p Stylus Jade Laravel CoffeScript
                                                     
             - numberItem++
     
