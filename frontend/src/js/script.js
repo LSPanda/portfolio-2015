@@ -36,7 +36,8 @@
     {
       $( ".header" ).removeClass( "header--visible" ).addClass( "header--hidden" );
       // Hide my arrow when scroll
-      $( ".cover__arrow" ).addClass( "cover__arrow--hidden" );
+      $( ".cover__mouse" ).addClass( "cover--hidden" );
+      $( ".cover__arrow" ).addClass( "cover--hidden" );
     }
 
     function showNav()
