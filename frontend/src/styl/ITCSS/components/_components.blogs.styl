@@ -21,20 +21,24 @@
 // Style for display my blog articles
 .blogs
     display inline-block
-    width 50%
-    rem-fallback( padding-bottom, 56px )
+    width 100%
+    rem-fallback( margin, 24px 0 )
     transition( all, 0.25s )
     &:hover
         opacity 0.6
 
 .blogs__block
+    rem-fallback( min-width, 480px )
     rem-fallback( max-width, 540px )
     margin 0 auto
+.blogs__block--title
+    text-align center
 .blogs__date
     display block
     rem-fallback( margin-top, -20px )
 .blogs__img
-    rem-fallback( margin, 8px 0 )
+    width 100%
+    rem-fallback( margin, 12px 0 )
 
 // Style for display one article
 .blog__thumbnails
@@ -52,4 +56,4 @@
 .blog__date
     display block
     text-align center
-    rem-fallback( margin, -8px 0 48px )
+    rem-fallback( margin, -4px 0 48px )
