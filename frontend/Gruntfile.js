@@ -20,15 +20,15 @@ module.exports = function( grunt ) {
 				]
 		      },
 		      "files": {
-		        "bin/assets/css/main-min.css": "src/styl/main.styl"
-		        //"../backend/assets/css/main.css": "src/styl/main.styl"
+		        "bin/assets/css/main-min.css": "src/styl/main.styl",
+		        "../backend/assets/css/main.css": "src/styl/main.styl"
 		      }
 		    }
 		},
 		"jade": {
 			"html": {
 				"options": {
-					"pretty": false, // - Change value to have lisible HTML
+					"pretty": true, // - Change value to have lisible HTML
 					"data": {
 						"debug": false,
 					},
@@ -46,7 +46,8 @@ module.exports = function( grunt ) {
 		"uglify": {
 			"scripts": {
 				"files": {
-					"bin/assets/js/script-min.js": "src/js/script.js"
+					"bin/assets/js/script-min.js": "src/js/script.js",
+					"../backend/assets/js/script.js": "src/js/script.js"
 				}
 			}
 		},
