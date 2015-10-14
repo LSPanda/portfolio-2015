@@ -1,0 +1,38 @@
+///*------------------------------------*\
+//    #COMPONENTS FORMS
+//\*------------------------------------*/
+
+
+
+
+// Style for my forms
+.form
+    rem-fallback( margin, 32px 0 )
+.form__element
+    width 50%
+    rem-fallback( margin-bottom, 12px )
+    rem-fallback( padding, 0 8px )
+.form__element--fullSize
+    width 100%
+    rem-fallback( margin-bottom, 32px )
+    rem-fallback( padding, 0 8px )
+.label__text
+    display block
+    rem-fallback( margin, 16px 0 8px )
+.input__text
+    width 100%
+    background-color wf_form-background-color
+    rem-fallback( padding, 16px 24px )
+    &:focus
+        background-color wf_form-background-color-focus
+.input__submit
+    width 100%
+    text-transform uppercase
+    color wf_background-color
+    rem-fallback( padding, 18px 0 )
+    border none
+    background wf_background-submit
+    transition( all, 0.25s )
+    cursor pointer
+    &:hover
+        background wf_background-submit-hover

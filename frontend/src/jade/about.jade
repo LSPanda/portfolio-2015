@@ -14,6 +14,21 @@ block content
         h2.alpha.blogs__title Contact
         p.lettrine Et voici le moment que vous attendiez... Si je vous ai séduit jusqu'à maintenant et que vous êtes certain que vous me voulez pour votre projet, c'est le moment de me contacter&nbsp;! Alors, rien de plus simple. Il vous suffit de remplir le formulaire ci-dessous pour m'envoyer un mail et je m'empresserai de vous répondre afin de fixer au plus tôt un premier contact et ainsi se voir dans le but de réaliser votre rêve. Mais dans le cas contraire, c'est ici que je vous quitte mes chers amis, et j'espère que vous avez tout de même passé du bon temps sur mon site internet&nbsp;!
         span.paragraph-separator__first
+        form.form
+            div.inline-block.form__element
+                label(for="name").epsilon.label__text
+                    | Nom et prénom
+                input(id="name" type="text" placeholder="John Doe").input__text
+            div.inline-block.form__element    
+                label(for="mail").epsilon.label__text
+                    | Adresse mail
+                input(id="mail" type="text" placeholder="John.Doe@gmail.com").input__text
+            div.block.form__element--fullSize
+                label(for="subject").epsilon.label__text
+                    | Que désiez-vous&nbsp;?
+                textarea(id="subject" rows="10" placeholder="Une question ? Une demande ? N'importe quoi ?!").input__text
+            div.block.form__element--fullSize
+                input(type="submit" value="M'inscrire").input__submit
 
 block footer
     include includes/footer.jade
