@@ -1,14 +1,7 @@
-  <footer class="footer cf" role="contentinfo">
-
-    <div class="copyright">
-      <?php echo $site->copyright()->kirbytext() ?>
-    </div>
-
-    <div class="colophon">
-      <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
-    </div>
-
-  </footer>
-
+    <footer class="footer">
+      <p class="copyright">Construit à l'ancienne par Simon Leyder et propulsé grâce à <a href="http://getkirby.com">Kirby</a></p>
+    </footer>
+    <?php echo( js( 'assets/js/vendor/jquery.js' ) ) ?>
+    <?php echo( js( 'assets/js/script.js' ) ) ?>
 </body>
 </html>

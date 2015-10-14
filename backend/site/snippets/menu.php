@@ -1,22 +1,7 @@
-<nav role="navigation">
-
-  <ul class="menu cf">
-    <?php foreach($pages->visible() as $p): ?>
-    <li>
-      <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-
-      <?php if($p->hasVisibleChildren()): ?>
-      <ul class="submenu">
-        <?php foreach($p->children()->visible() as $p): ?>
-        <li>
-          <a href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-        </li>
-        <?php endforeach ?>
-      </ul>
-      <?php endif ?>
-
-    </li>
-    <?php endforeach ?>
-  </ul>
-
+<nav class="inline-block navigation">
+  <h2 class="hidden">Navigation à travers mon portfolio</h2>
+    <span class="navigation__element"><a href="<?php echo( url() ) ?>" class="element__link animateLink">Accueil</a></span>
+    <?php foreach( $pages->visible() as $p ): ?>
+        <span class="navigation__element"><a href="<?php echo $p->url() ?>" class="element__link animateLink"><?php echo $p->title()->html() ?></a></span>
+    <?php endforeach; ?>
 </nav>

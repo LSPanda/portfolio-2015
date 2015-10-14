@@ -1,17 +1,13 @@
-Title: Kirby Starterkit
+Title: Simon&You
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Simon Leyder
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Bienvenu sur le portfolio de Simon Leyder, site internet propulsé par Kirby et utiliser afin de faire valoir mes travaux ainsi que mon point de vue à travers un blog.
 
 ----
 
-Keywords: Kirby, CMS, file-based
-
-----
-
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Keywords: Simon Leyder, infographiste, intégrateur web, designer web, blog, portfolio
