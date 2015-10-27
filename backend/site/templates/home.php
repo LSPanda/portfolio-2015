@@ -7,6 +7,6 @@
     </div>
     <div class="wrapper__text">
         <h2 class="hidden">Bienvenu chez moi&nbsp;!</h2>
-        <?php echo $page->text() ?>
+        <?php echo( $page->text() ) ?>
     </div>
 <?php snippet('footer') ?>
