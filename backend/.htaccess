@@ -1,5 +1,5 @@
 # Jump to PHP5.5 for my OVH's server
-SetEnv PHP_VER 5_5
+SetEnv PHP_VER 5_3
 
 # Kirby .htaccess
 # rewrite rules
