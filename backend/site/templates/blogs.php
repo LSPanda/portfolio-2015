@@ -8,28 +8,28 @@
     </div>
 
     <section class="blog">
+        <?php $blogs = $page->children()->paginate(3) ?>
         <h2 class="hidden"><?php echo( $page->hiddenheading() ) ?></h2>
-        <?php foreach( $page->children() as $blog ): ?>
+        <?php foreach( $blogs as $blog ): ?>
             <?php snippet( 'blog', array( 'blog' => $blog ) ) ?>
         <?php endforeach ?>
 
+        <?php if($blogs->pagination()->hasPages()): ?>
+            <div class="pagination">
 
-      <!-- <div class="pagination">
-          <span class="inline-block pagination__element">
-              <a href="#" class="block removeLink pagination__element">&lang;&lang;</a>
-          </span>
-          <span class="inline-block pagination__element">
-              <a href="#" class="block pagination__element--current">1</a>
-          </span>
-          <span class="inline-block pagination__element">
-              <a href="#" class="block pagination__element">2</a>
-          </span>
-          <span class="inline-block pagination__element">
-              <a href="#" class="block pagination__element">3</a>
-          </span>
-          <span class="inline-block pagination__element">
-              <a href="#" class="block removeLink pagination__element">&rang;&rang;</a>
-          </span>
-      </div> -->
+                <?php if($blogs->pagination()->hasNextPage()): ?>
+                    <span class="inline-block pagination__element">
+                        <a href="<?php echo( $blogs->pagination()->nextPageURL() )?>" class="block removeLink pagination__element">&rang;&rang;</a>
+                    </span>
+                <?php endif ?>
+
+                <?php if($blogs->pagination()->hasPrevPage()): ?>
+                <span class="inline-block pagination__element">
+                    <a href="<?php echo( $blogs->pagination()->prevPageURL() )?>" class="block removeLink pagination__element">&lang;&lang;</a>
+                </span>
+                <?php endif ?>
+
+            </div>
+        <?php endif ?>
     </section>
 <?php snippet('footer') ?>
