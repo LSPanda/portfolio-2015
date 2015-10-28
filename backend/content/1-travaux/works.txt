@@ -1,4 +1,4 @@
-Title: Travaux
+Title: Portfolio
 
 ----
 
@@ -6,7 +6,8 @@ Heading: Travaux
 
 ----
 
-Text: Mes amis, pour quelles raisons naviguez-vous sur mon portfolio&nbsp;? En premier lieu, j'ai envie de dire que vous êtes à la recherche d'un infographiste pour un logo / un site internet / une affiche / un projet super intéressant&nbsp;! Seulement, avant de vous arrêter ici et me choisir comme compagnon pour réaliser la moindre de vos envies, jeter un coup d'oeil à mes travaux déjà réalisés afin de savoir si je suis la personne que vous recherchez. Bonne navigation&nbsp;!
+Text: Mes amis, pour quelles raisons naviguez-vous sur mon portfolio ? En premier lieu, j'ai envie de dire que vous êtes à la recherche d'un infographiste pour un logo / un site internet / une affiche / un projet super intéressant ! Seulement, avant de vous arrêter ici et me choisir comme compagnon pour réaliser la moindre de vos envies, jeter un coup d'oeil à mes travaux déjà réalisés afin de savoir si je suis la personne que vous recherchez. Bonne navigation !
+<span class="paragraph-separator__third"></span>
 
 ----
 

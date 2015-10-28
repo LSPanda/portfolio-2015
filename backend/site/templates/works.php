@@ -2,10 +2,12 @@
 
     <div class="wrapper__text">
         <h2 class="alpha works__title"><?php echo( $page->heading() ) ?></h2>
-        <p class="lettrine"><?php echo( $page->text() ) ?></p><span class="paragraph-separator__third"></span>
+        <p class="lettrine">
+            <?php echo( $page->text()->html() ) ?>
+        </p>
     </div>
 
-    <section class="works">
+    <section class="works correct__inline-block">
         <h2 class="hidden"><?php echo( $page->hiddenheading() ) ?></h2>
         <?php foreach( $page->children() as $work ): ?>
             <?php snippet( 'work', array( 'work' => $work ) ) ?>

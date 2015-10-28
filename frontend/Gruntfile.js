@@ -21,7 +21,7 @@ module.exports = function( grunt ) {
 		      },
 		      "files": {
 		        "bin/assets/css/main-min.css": "src/styl/main.styl",
-		        "../backend/assets/css/main.css": "src/styl/main.styl"
+		        "../backend/assets/css/main-min.css": "src/styl/main.styl"
 		      }
 		    }
 		},
