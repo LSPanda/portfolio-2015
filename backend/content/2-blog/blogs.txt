@@ -1,0 +1,14 @@
+Title: Blogs
+
+----
+
+Heading: Blog
+
+----
+
+Text: Pourquoi un blog me diriez-vous ? Je reste un homme et j'adore parler de ce qui me passe par la tête ! Et ici, je n'exposerais pas  mon chat ou d'autre chose à la mode sur l'internet... Mais plutôt de ce que je fais de mon temps libre, comme lire où découvrir de nouvelles technologies pour mon métier et me tenir à la page. Enfin, vous verrez bien en continuant sur cette page, les derniers articles sont juste en dessous !
+<span class="paragraph-separator__second"></span>
+
+----
+
+HiddenHeading: Liste de mes derniers postes de blog

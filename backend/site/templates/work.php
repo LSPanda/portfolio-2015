@@ -6,7 +6,7 @@
         <p class="lettrine">
             <?php echo( $page->text()->html() ) ?>
         </p>
-
+        <a href="<?php echo( $page->parent()->url() ) ?>">&larr; Revenir à la liste des travaux</a>
     </div>
 
     <section class="works correct__inline-block">
