@@ -8,7 +8,7 @@
     </div>
 
     <section class="works correct__inline-block">
-        <?php $works = $page->children()->paginate(6) ?>
+        <?php $works = $page->children()->flip()->paginate(6) ?>
         <h2 class="hidden"><?php echo( $page->hiddenheading() ) ?></h2>
         <?php foreach( $works as $work ): ?>
             <?php snippet( 'work', array( 'work' => $work ) ) ?>

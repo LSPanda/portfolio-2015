@@ -1,0 +1,1 @@
+alt: Aperçu du jeu de pendu réalisé en PHP pour mon cours de Programmation Web Coté Server

@@ -8,7 +8,7 @@
     </div>
 
     <section class="blog">
-        <?php $blogs = $page->children()->paginate(3) ?>
+        <?php $blogs = $page->children()->flip()->paginate(3) ?>
         <h2 class="hidden"><?php echo( $page->hiddenheading() ) ?></h2>
         <?php foreach( $blogs as $blog ): ?>
             <?php snippet( 'blog', array( 'blog' => $blog ) ) ?>
