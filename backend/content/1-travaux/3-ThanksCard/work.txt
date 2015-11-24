@@ -14,8 +14,10 @@ Tags: Photoshop, Illustrator, Photographie
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Text: Ce n'est pas une nouvelle, du moins, ce ne l'est plus... Je suis père d'une petite fille maintenant âgée de quinze mois. Et comme tout parent, j'ai voulu remercier mes proches d'avoir offert des cadeaux à la naissance de mon enfant. Seulement, je ne voulais pas prendre un canevas que tout le monde posséderait, c'est alors que j'ai décidé de faire ma propre carte pour ensuite me rendre chez l'imprimeur afin de couper mes cartes de remerciement et les envoyer par la suite.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![Vue de la carte de remerciement lorsque les personnes concernées l'ont reçue](http://portfolio.simon-leyder.be/assets/images/1-travaux/3-work-a.jpg "Vue de la carte de remerciement lorsque les personnes concernées l'ont reçue")
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Une mise en page simple, un texte simple, ce qu'il nous faut et rien de plus. Je ne suis pas fan des dizaines de fioritures habituelles que l'on voit sur les cartes de remerciement, c'est un peu kitch si vous voulez mon avis. J'ai donc choisi d'afficher seulement quatre photos dont une en évidence, la plus récente, ainsi que sa date de naissance et son nom.
+
+Rien de plus, rien de moins, juste le nécessaire.

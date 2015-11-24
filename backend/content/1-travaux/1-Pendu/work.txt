@@ -1,4 +1,4 @@
-Title: Pendu
+Title: Jeu du Pendu
 
 ----
 
@@ -6,15 +6,17 @@ HiddenHeading: Réalisation d'un jeu du pendu en PHP dans le cadre de mon cours 
 
 ----
 
-Heading: Pendu
+Heading: Jeu du Pendu
 
 ----
 
 Tags: HTML, CSS, PHP
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Text: Dans le cadre de mon cours de Programmation Web Côté Serveur, nous avions à créer un jeu du Pendu dans un langage de programmation vue lors de notre formation&nbsp;: [PHP](http://php.net). Pour être parfaitement honnête, je ne suis pas une bête de programmation et de plus... Ce n'est pas le grand amour entre moi et PHP. Ce n'est pas pour autant que j'allais me soustraire à ce travail, c'est ainsi que la semaine suivant la demande de travail, je présentais mon [projet](http://www.simon-leyder.be/works/pendu/) à mon professeur.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![Aperçu du jeu du Pendu en pleine partie](http://portfolio.simon-leyder.be/assets/images/1-travaux/1-work-a.jpg "Partie du Pendu du Panda, affichant comme réussite des gifs de panda")
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Pourquoi présenter ce travail dans mon portfolio&nbsp;? Et c'est une bonne question&nbsp;! Pour la simple raison que, avec ce projet, j'ai surmonté ma haine envers ce langage et chercher à comprendre comment il fonctionne et comment arriver à faire quelque chose de décent avec celui-ci. Vous l'aurez compris, il s'agit d'un véritable défis pour ma personne, et le résultat est à la hauteur de mes exigences. Enfin, pour l'utilisateur final, il ne s'agit que d'appuyer sur deux boutons pour jouer. Mais pour moi, ce sont les centaines de lignes de code derrière ce site et de logique à appréhender&nbsp;!
+
+N'hésitez pas à faire une petite partie, j'ai choisi les images avec grand soin&nbsp;!

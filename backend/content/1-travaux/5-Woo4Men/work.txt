@@ -14,8 +14,31 @@ Tags: HTML, CSS, Grunt, JavaScript, LocalStorage
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Text: Dans le cadre de mon cours de projet web, nous avions pour objectif de designer l'interface d'un e-commerce. Et ici, c'est le site de [Woo4Men](http://woo4men.com/fr/) qui a été choisi par notre professeur. L'une des consignes pour notre travail était de créer un design pour les fêtes de noël, et que celui-ci respecte toute les règles d'ergonomie par la même occasion.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Je vais à présent vous expliquer chacune des images que j'ai choisi de vous exposer ici, mais vous avez aussi le droit de visiter le [site](http://www.simon-leyder.be/works/woo4men/) résultant de ce travail&nbsp;!
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![Aperçu de la page d'accueil de la refonte du site Wo4Men](http://portfolio.simon-leyder.be/assets/images/1-travaux/5-work-a.jpg "Aperçu de la page d'accueil de la refonte du site Wo4Men")
+
+La page d'accueil, première page que n'importe quel utilisateur parcours en premier lieu. Ici, j'ai voulu rester normal en affichant les informations primordiales du site web, c'est-à-dire le logo de la société ainsi que les champs de recherche et connections à l'interface d'utilisateur. Sans oublier que le panier d'achat, est l'élément visible en premier lieu... Normal pour un site de vente&nbsp;! Et finalement, vous retrouverez les liens directs vers les pages importantes du site web.
+
+Vous ne le voyez pas ici, mais le pied du site contient un rappel des liens principaux du site web.
+
+![Aperçu de la page de rechercher des magasin de la refonte du site Wo4Men](http://portfolio.simon-leyder.be/assets/images/1-travaux/5-work-b.jpg "Aperçu de la page de rechercher des magasin de la refonte du site Wo4Men")
+
+La page de contact est à doubles utilités&nbsp;:
+
+* Contacter le service après-vente, en cas de problème avec une commande ou un produit du magasin.
+* Localiser les magasins de la socitété, afin que les clients puissent se rendre dans une enseigne plutôt que de commander en ligne.
+
+Ici, j'ai trouvé judicieux l'ajout d'une google map. Celle-ci donne un aperçu direct de l'endroit ou se trouve le magasin dans une région donnée par un curseur personnalisé pour le magasin. Quand un utilisateur arrive sur cette page, il saura automatique par la géo-localisation si un magasin est à proximité de chez lui ou de l'endroit où il se trouve avec son smartphone.
+
+![Aperçu de la page des ventes de la refonte du site Wo4Men](http://portfolio.simon-leyder.be/assets/images/1-travaux/5-work-c.jpg "Aperçu de la page des ventes de la refonte du site Wo4Men")
+
+La page de listing des produits de la refonte est des plus habituelle. Si vous parcourez des sites comme [Amazon](http://www.amazon.fr) ou encore [H&M](http://www.amazon.fr), vous ne risquez pas d'être déboussollé. Il s'agit de pattern utilisé par tous et qui ont déjà prouvé leurs valeurs, alors pourquoi réinventer la roue&nbsp;?
+
+![Aperçu de la page d'achat de la refonte du site Wo4Men](http://portfolio.simon-leyder.be/assets/images/1-travaux/5-work-d.jpg "Aperçu de la page d'achat de la refonte du site Wo4Men")
+
+La séquence d'achat, et pour un e-commerce, il s'agit des pages les plus importantes. Pourquoi&nbsp;? Simplement que, si vous avez un problème ici ou bien que rien ne fonctionne, vous quitterez le site pour d'autre horizon&nbsp;! Ne mentez pas, nous l'avons déjà tous fait. C'est pour cela que j'ai décidé de séparer chaque action en étape et que l'on peut revenir sur nos pas à tous moment. Un dessin fonctionne bien mieux que de beau discours, alors je vous invite de vous rendre sur le [site](http://www.simon-leyder.be/works/woo4men/) pour vous en rendre compte par vous-même.
+
+Voici qui clôture cet article sur mon projet de cours, j'espère ne pas avoir été ennuyant&nbsp;!

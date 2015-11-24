@@ -14,8 +14,24 @@ Tags: HTML, CSS, Grunt, Laravel
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Text: Dans le cadre de mon cours de projet web, nous avions pour objectif de créer un site web pour l'ASBL [RestoRallye](https://www.facebook.com/RestoRallye/). Il s'agit d'une ASBL organisant des évènements dans une région afin de promouvoir des restaurants au cours d'un rallye à travers ceux-ci. Vous prendrez votre entrée, plat et dessert dans trois restaurants différent et vous pourriez parler de votre expérience avec les autres Gastro-Nomades.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Je vais à présent vous expliquer chacune des images que j'ai choisi de vous exposer ici, mais vous avez aussi le droit de visiter le [site](http://www.simon-leyder.be/works/restorallye/) résultant de ce travail&nbsp;!
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![Aperçu de la page d'accueil du site de Restorallye](http://portfolio.simon-leyder.be/assets/images/1-travaux/6-work-a.jpg "Aperçu de la page d'accueil du site de Restorallye")
+
+Il s'agissait d'un travail de groupe, et après en avoir parlé avec mon collègue, nous avons décidé que je m'occupe de la partie design et lui du développement. Ayant entièrement en charge ce côté-là, j'ai donc décidé de me faire plaisir avec un style que j'aime  mais que je n'ai jamais eu l'occasion utilisé&nbsp;: le [parallaxe](http://www.alsacreations.com/tuto/lire/1417-zoom-sur-effet-parallaxe.html). Il s'agit, dans les grandes lignes, de passer successivement d'une image à une zone de texte par un effet élégant. Les images ne lui rendront pas honneur, c'est pour cette raison que je ne peux que vous conseillez de vous rendre sur le [site](http://www.simon-leyder.be/works/restorallye/) pour vous en rendre compte&nbsp;!
+
+![Aperçu de la page d'évènement du site de Restorallye](http://portfolio.simon-leyder.be/assets/images/1-travaux/6-work-b.jpg "Aperçu de la page d'évènement du site de Restorallye")
+
+L'objectif principal du site était de pouvoir s'inscrire rapidement à un évènement, tout en sachant que les places étaient limités. C'est pour cela qu'une page était dédiée à ce service. La page d'évènement permet de se rendre compte, par le biais d'une google map, de l'endroit ou se déroulera le prochain Restorallye ainsi qu'un historique des évènements précédents.
+
+![Aperçu de la page des restaurants du site de Restorallye](http://portfolio.simon-leyder.be/assets/images/1-travaux/6-work-c.jpg "Aperçu de la page des restaurants du site de Restorallye")
+
+Cette ASBL à aussi un autre but, promouvoir les restaurants d'une région. C'est pourquoi une page à été dédié à tous les restaurants été l'hôte d'un Restorallye ainsi que le menu qu'il ait proposé à son évènement. L'image ci-dessus vous permettra de vous rendre compte de la mise en pages utiliser pour les afficher, son nom ainsi que la région dans laquelle il se trouve. Il suffira alors de cliquer dessus pour avoir accès à toutes les informations liés à l'établissement.
+
+![Aperçu de la page de contact du site de Restorallye](http://portfolio.simon-leyder.be/assets/images/1-travaux/6-work-d.jpg "Aperçu de la page de contact du site de Restorallye")
+
+Comme toute ASBL, les dirigeants de celle-ci désirent recevoir des retours sur leurs activités, c'est pour cela qu'une page de contact est présente sur le site de RestoRallye. Chaque utilisateur pourra se créer un compte et ainsi profiter des dernières informations relatives au site ou encore participer plus facilement aux prochains évènements. Pour les personnes n'ayant pas de compte, il est toujours possible d'envoyer un mail à travers le formulaire de contact présenter dans l'image ci-dessus.
+
+Voici qui clôture cet article sur mon projet de cours, j'espère ne pas avoir été
