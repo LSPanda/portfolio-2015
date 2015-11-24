@@ -10,7 +10,7 @@ Heading: Woo4Men
 
 ----
 
-Tags: HTML, CSS, Grunt, , JavaScript, LocalStorage
+Tags: HTML, CSS, Grunt, JavaScript, LocalStorage
 
 ----
 

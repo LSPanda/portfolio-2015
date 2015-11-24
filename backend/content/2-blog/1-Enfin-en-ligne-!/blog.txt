@@ -10,10 +10,20 @@ PostingDate: 24 Novembre 2015
 
 ----
 
-Exerc: Et pour vous donner l’eau à la bouche, voici un petit extrait de l'article en question. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Exerc: Un mois est passé depuis le moment où j'ai décidé d'ouvrir Atom et intégrer la maquette de mon nouveau portfolio, et maintenant, nous pouvons tous admirer le résultat&nbsp;! Un long mois afin de construire ce site page par page, et vous savez quoi&nbsp;? Je suis franchement fière de...
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+Text: Un mois est passé depuis le moment où j'ai décidé d'ouvrir [Atom](https://atom.io) et intégrer la maquette de mon nouveau portfolio, et maintenant, nous pouvons tous admirer le résultat&nbsp;! Un long mois afin de construire ce site page par page, et vous savez quoi&nbsp;? Je suis franchement fière de ce que j'ai à vous proposer&nbsp;! Enfin, je l'ai conçu pour moi à la base, mais aussi un peu pour vous afin d'exposer mes travaux et de montrer de quoi je suis capable. Alors, heureux&nbsp;?
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+N'hésitez pas un instant à me dire ce que vous en pensez, par exemple, en envoyant un mail via mon formulaire de contact&nbsp;!
+
+![Fichier de travail à travers Atom](http://portfolio.simon-leyder.be/assets/images/2-blogs/1-blog-b.jpg "Aperçu de mon dossier de travail sur Atom")
+
+Imaginer un instant le nombre de fichiers, comme celui présent ci-dessus, que j'ai dû écrire pour vous fournir le site que vous êtes actuellement occupés à parcourir. Il m'a fallu du temps pour le concevoir et plus encore afin de le mettre en ligne&nbsp;! Cela veut-il dire que je travaille lentement&nbsp;? Peut-être... Seulement, je voulais fournir un projet aussi abouti que possible, et surtout beau à contempler où à parcourir. Bien sûr, il me reste encore quelques bricoles à régler.
+
+![Aperçu du portfolio au moment de sa mise en ligne](http://portfolio.simon-leyder.be/assets/images/2-blogs/1-blog-a.jpg "Page d’accueil du portfolio de 2015")
+
+Enfin, quand je parle de bricole... Il s'agit en vérité que d'une seule chose à compléter&nbsp;: le [responsive design](http://www.alsacreations.com/article/lire/1615-cest-quoi-le-responsive-web-design.html). Actuellement, mon site web n'est adapté que pour un écran de bureau ou d'ordinateur portable. Et à notre époque, la navigation sur mobile ou encore sur tablette fait partie des plus courante. Qui, parmi vous, n'utilise pas son smartphone pour passer le temps une fois à la toilette&nbsp;? Ne soyez pas gênées, nous le faisons tous&nbsp;!
+
+Enfin, vous l'aurez compris, l'adaptabilité de mon site web fera l'objet d'un travail proche et d'un autre article sur mon blog&nbsp;! Je pense pouvoir satisfaire la curiosité de certain en expliquant de quoi il s'agit et la façon dont je procéderais sur ce canevas. Ne manquez pas mon prochain article, et profiter de votre visite&nbsp;!
